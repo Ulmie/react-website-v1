@@ -1,0 +1,194 @@
+.modal__content {
+    
+    padding: 5rem 5rem;
+}
+
+.modal__resume {
+    margin-bottom: 5rem;
+}
+
+.modal__title {
+    margin-bottom: .5rem;
+    
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}  
+
+.modal__titles {
+    margin-bottom: 2rem;
+    
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    
+} 
+
+.modal__title--sm {
+    font-size: 1.2rem;
+}
+    
+.modal__title--left {
+    text-align: right;
+}
+    
+.modal__title--right {
+    text-align: left;
+}
+
+
+.modal__resume {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal__col {
+    padding: 0 3rem;
+    width: 50%;
+}
+    
+    .modal__col--right {
+        text-align: left;
+    }
+
+
+.modal__date {
+    font-size: .94rem;
+    color: black;
+    text-decoration: underline;
+    margin-bottom: .8rem;
+}
+
+.modal__exp {
+    font-size: 1.06rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: .2rem;
+}
+
+.modal__prof {
+    font-size: .94rem;
+    color: black;
+    font-style: italic;
+    margin-bottom: .6rem;
+}
+
+.modal__text {
+    font-size: .8rem;
+    color: gray;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.modal__resume-item {
+    margin-bottom: 1rem;
+}  
+
+.modal__resume-item--last {
+    margin-bottom: 0;
+}
+
+
+.modal__resume-skills {
+    font-size: .94rem;
+    font-weight: 300;
+    color: black;
+    
+    position: relative;
+}   
+.modal__resume-skills:after {
+    content: "";
+    width: 140px;
+    height: 6px;
+    background-color: rgba(gray, .3);
+        
+    position: absolute;
+    top: 50%;
+    left: 119px;
+    z-index: 1;
+}
+    
+.modal__resume-skills--one {
+    position: relative;
+}
+.modal__resume-skills--one:before {
+    content: "";
+    width: 126px;
+    height: 6px;
+    background-color: gray;
+            
+    position: absolute;
+    top: 50%;
+    left: 119px;
+    z-index: 2;
+}
+    
+    
+.modal__resume-skills--two {
+    position: relative;
+}   
+.modal__resume-skills--two:before {
+    content: "";
+    width: 136px;
+    height: 6px;
+    background-color: gray;
+            
+    position: absolute;
+    top: 50%;
+    left: 119px;
+    z-index: 2;
+}
+    
+    
+.modal__resume-skills--two--three {
+    position: relative;
+}
+.modal__resume-skills--two--three:before {
+    content: "";
+    width: 129px;
+    height: 6px;
+    background-color: gray;
+            
+    position: absolute;
+    top: 50%;
+    left: 119px;
+    z-index: 2;
+}
+    
+    
+.modal__resume-skills--four {
+    position: relative;
+}
+.modal__resume-skills--four:before {
+    content: "";
+    width: 113px;
+    height: 6px;
+    background-color: gray;
+        
+    position: absolute;
+    top: 50%;
+    left: 119px;
+    z-index: 2;
+}
+       
+
+
+.modal__resume-evords {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal__resume-evordsDate {
+    width: 15%;
+}
+
+.modal__resume-evordsContent {
+    width: 85%;
+}
+
+.modal__footer {
+    display: flex;
+    justify-content: center;
+}

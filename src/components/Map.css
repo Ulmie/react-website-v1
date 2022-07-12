@@ -1,0 +1,48 @@
+.map__back {
+    position: relative;
+
+}
+
+.map__info {
+    text-align: center;
+
+	vertical-align: top;
+    z-index: 2;
+
+}
+
+.map__text {
+
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f38181;
+}
+
+.open__map {
+     color: inherit;
+     text-decoration: none;
+}
+
+.map__text:after {
+    content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	z-index: 1;
+
+	background-color: #f38181;
+	margin: 10px auto 0;
+}
+
+.section {
+	padding: 80px 0;
+	
+}
+
+.section--map {
+    background: url("/images/map.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+

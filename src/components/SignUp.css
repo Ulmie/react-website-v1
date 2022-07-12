@@ -1,0 +1,108 @@
+.form {
+    background-color: lightgrey;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__container {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.form__wrapper {
+    width: 400px;
+    padding: 50px;
+
+}
+
+.form__user {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__title {
+    font-size: 32px;
+    font-weight: 300;
+    color: rgb(124, 124, 124);
+    margin-bottom: 50px;
+}
+
+.form__input-name {
+    color: rgb(124, 124, 124);
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.form__input-area {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+}
+
+.form__input-area:focus {
+    border: 3px solid #e84545;
+    border-color: #e84545;
+    pointer-events: none;
+    outline: none;
+    
+    
+}
+
+.form__input-area:active {
+    border-color: #e84545;
+}
+
+.form__input-btn {
+    background-color: rgb(49, 49, 49);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    width: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__remember {
+    display: flex;
+    align-items: center;
+    color: rgb(124, 124, 124);
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form__remember-left {
+    display: flex;
+    align-items: center;
+}
+
+.form__remember-chek {
+    margin-right: 5px;
+    color: #e84545;
+}
+
+
+.form__remember-chek-text {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+
+    transition: color .2s linear;
+}
+
+.form__remember-chek-text:hover {
+    text-decoration: none;
+    color: #e84545;
+}

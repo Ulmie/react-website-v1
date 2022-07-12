@@ -1,0 +1,82 @@
+.modal__wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+}
+
+.modal__wrapper.open {
+    height: 100%;
+    display: block;
+}
+
+.modal__wrapper.close {
+    display: none;
+    height: 0;
+}
+
+.modalTeam__body {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 100%;
+    text-align: center;
+}
+
+.modal__close {
+    display: flex;
+    justify-content: end;
+    font-size: 40;
+    cursor: pointer;
+}
+
+.modal__inner {
+    display: flex;
+}
+
+.modal__photo-img {
+    width: 300px;
+}
+
+.modal__photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.pepe-btn {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: lightgray;
+    background-color: transparent;
+}
+
+.modal__contacts {
+    text-align: left;
+}
+
+.modal__numder {
+    margin-bottom: 5px;;
+}
+.modal__email {
+    margin-bottom: 15px;;
+}
+
+.social-icons {
+    width: 50%;
+}
+
+.social-icons i{
+    color:gray;
+
+    transition: color .2s linear;
+}
+
+.social-icons i:hover{
+    color: #e84545;
+}
+
